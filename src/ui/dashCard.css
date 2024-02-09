@@ -1,0 +1,37 @@
+.dash__card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--title-color-dark);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  /* width: 33%; */
+  justify-content: space-between;
+}
+
+.dash__card p {
+  color: var(--container-color);
+  font-weight: 100;
+  margin-bottom: var(--mb-0-5);
+}
+
+.dash__title {
+  font-size: var(--h1-font-size);
+  /* font-weight: var(--font-medium); */
+  color: var(--container-color);
+  font-weight: var(--font-normal);
+  /* margin-bottom: var(--mb-0-5); */
+}
+
+/* .dash_head {
+    background-color: aquamarine;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--container-color);
+    border-radius: 50%;
+    text-align: center;
+    color: var(--container-color);
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 1rem 0rem;
+    padding: 0.3rem;
+  } */

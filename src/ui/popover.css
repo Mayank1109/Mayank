@@ -1,0 +1,40 @@
+.message-box {
+  width: auto;
+  border-radius: 6px;
+  /* bottom: 3rem;
+    right: 3rem; */
+  transition: 0.2s all ease-in-out;
+  /* position: absolute;
+    z-index: var(--z-modal); */
+}
+.message-box i {
+  vertical-align: middle;
+  padding: 10px;
+}
+.message-box i.exit-button {
+  float: right;
+  opacity: 0.4;
+}
+.message-box i.exit-button:hover {
+  opacity: 0.8;
+}
+
+.hide-popup {
+  display: none;
+}
+
+.message-text {
+  vertical-align: middle;
+}
+
+.message-box-success {
+  background-color: #ddf3d5;
+  border: #9ddc86 2px solid;
+  color: #597151;
+}
+
+.message-box-fail {
+  background-color: #f3d5d5;
+  border: #dc8686 2px solid;
+  color: #964848;
+}

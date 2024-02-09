@@ -1,0 +1,56 @@
+.card {
+  width: 100%;
+  border-radius: 5px;
+  height: 7rem;
+  margin-top: 0.5rem;
+  grid-template-columns: 1fr 15px;
+  background-color: var(--container-color);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+.card:hover,
+.card:active {
+  transition: 0.2s all ease-in-out;
+  border: 2px solid var(--higlight-color);
+}
+
+.file-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--title-color-dark);
+  margin-bottom: 0.5rem;
+}
+
+.line-2 {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.sec__line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.op {
+  background-color: var(--container-color);
+}
+
+.doc {
+  color: var(--title-color-dark);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+
+.options-cell {
+  position: relative;
+  background-color: var(--container-color);
+}
+
+.options-cell svg {
+  background-color: var(--container-color);
+}
